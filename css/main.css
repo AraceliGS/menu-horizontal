@@ -6,24 +6,28 @@
 
 /*Utilizo outline para analizar la naturaleza de mis elementos (ver si son elementos a nivel de bloque o en línea).*/
   nav {
-    outline: 1px solid yellow;
+    /*outline: 1px solid yellow;*/
   }
 
   ul {
-    outline: 1px solid blue;
+    /*outline: 1px solid blue;*/
     list-style: none;
     padding: 0;
     margin: 0;
+    background: #2e2e2a;
+    line-height: 30px;
   }
 
   li {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     width: 100px;
+    display: inline-block;
     text-align: center;
   }
 
   a {
-    outline: 1px solid green;
+    /*outline: 1px solid green;*/
     text-decoration: none;
     display: block;
+    color: #fff;
   }
